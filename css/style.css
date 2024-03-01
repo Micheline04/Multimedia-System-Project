@@ -1,0 +1,62 @@
+/*Poppins Font Import*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*
+{
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* Navbar */
+.bg-black
+{
+    background-color: #000000;
+}
+
+.navbar-link-container
+{
+    width: 50%;
+}
+
+.navbar-link
+{
+    color: #ffffff;
+}
+
+.navbar-link:hover
+{
+    color: #F0B700;
+}
+
+
+/* Jumbotron */
+.jumbotron-container
+{
+    height: 90vh;
+}
+
+.movie-desc
+{
+    width: 100%;
+    height: 100%;
+}
+
+.bg-black-sub
+{
+    
+}
+
+.cover
+{
+    width: 100%;
+    height: 100%;
+}
+
+.cover > img
+{
+    width: 100%;
+    height: 100%;
+}
