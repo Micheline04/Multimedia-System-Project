@@ -14,15 +14,15 @@
     <body>
 
         <!-- Navbar -->
-        <nav class="bg-black navbar navbar-dark p-3">
+        <nav class="bg-black navbar navbar-dark p-3 bg-black">
             <span class="navbar-brand mb-0 h1 ml-5">Navbar</span>
             <div class="w-75 d-flex justify-content-center">
                 <div class="navbar-link-container d-flex justify-content-between">
                     <span class="navbar-brand mb-0 h1 mr-5">
-                        <a class="navbar-link text-decoration-none" href="">Tentang Film</a>
+                        <a class="navbar-link link-white text-decoration-none" href="">Tentang Film</a>
                     </span>
                     <span class="navbar-brand mb-0 h1">
-                        <a class="navbar-link text-decoration-none" href="">Dibalik Layar</a>
+                        <a class="navbar-link link-white text-decoration-none" href="">Dibalik Layar</a>
                     </span>
                 </div>
             </div>
@@ -32,23 +32,68 @@
 
             <!-- Jumbotron -->
             <div class="row">
-                <div class="jumbotron-container d-flex justity-content-center align-items-center bg-primary p-0 rounded-0">
-                    <div class="movie-desc col-md-4 p-5 bg-black">
-                        <p>Film</p>
-                        <h1>180&deg;</h1>
+                <div class="jumbotron-container d-flex justity-content-center align-items-center bg-black-sub p-0 rounded-0">
+                    <div class="film-desc col-md-4 bg-black-sub p-5">
+                        <p class="film-text poppins-medium">Film</p>
+                        <h1 class="film-title poppins-semi-bold mb-5">180&deg;</h1>
 
-                        <h6>Sinopsis</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quod maxime non, magni optio quo excepturi architecto. Delectus obcaecati omnis molestias voluptas aspernatur mollitia exercitationem eligendi. Quibusdam eligendi temporibus illum?</p>
+                        <h6 class="film-text poppins-medium">Sinopsis</h6>
+                        <p class="film-detail mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 
-                        <button>Play</button>
+                        <button class="btn btn-md btn-warning pt-2 pb-2 pl-5 pr-5">
+                            <a class="button-link play-button-text poppins-medium text-decoration-none" href="">Play</a>
+                        </button>
                     </div>
-                    <div class="col-md-8 p-0 cover">
-                        <img src="assets/cover.png" alt="">
+                    <div class="cover col-md-8">
+                        <img src="assets/cover.png" alt="Cover">
                     </div>
                 </div>
             </div>
 
+            <div class="row bg-black p-5">
+                <h2 class="col-md-12 poppins-bold film-text mb-5">Pemeran Utama</h2>
+            <!-- </div> -->
+                <!-- <div class="col-md-2"></div> -->
 
+                <!-- <div class="row"> -->
+                <div class="col-md-6 d-flex justify-content-left">
+                    <div class="profile-img">
+                        <img src="assets/profile/profile.jpg" alt="">
+                    </div>
+                    <div class="profile-detail p-3">
+                        <p class="poppins-bold film-detail">Clarensia Novia Hartanoe</p>
+                        <p class="poppins-italic film-detail">as Ana</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 d-flex justify-content-left">
+                    <div class="profile-img">
+                        <img src="assets/profile/profile.jpg" alt="">
+                    </div>
+                    <div class="profile-detail p-3">
+                        <p class="poppins-bold film-detail">Gideon Giyanto</p>
+                        <p class="poppins-italic film-detail">as Eric</p>
+                    </div>
+                </div>
+                <!-- </div> -->
+                <div class="col-md-2"></div>
+            </div>
+            
+            <div class="row bg-black p-5">
+                <h2 class="col-md-12 poppins-bold film-text mb-3">Special Mentions</h2>
+                <ul class="ml-5">
+                    <li>Name</li>
+                    <li>Name</li>
+                    <li>Name</li>
+                    <li>Name</li>
+                    <li>Name</li>
+                    <li>Name</li>
+                    <li>Name</li>
+                    <li>Name</li>
+                    <li>Name</li>
+                    <li>Name</li>
+                </ul>
+            </div>
         </div>
     </body>
 </html>

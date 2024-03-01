@@ -4,16 +4,61 @@
 *
 {
     box-sizing: border-box;
+    margin: 0 !important;
+    padding: 0 !important;
+
+    /* Poppins Regular (Default) */
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+    color: #ffffff;    
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+body
+{
+    width: 100%;
+    /* background-color: #000000; */
+}
+
+.container-fluid
+{
+    padding: 0 !important;
+}
+
+.poppins-medium
+{
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semi-bold
+{
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold
+{
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-italic
+{
+  font-weight: 400;
+  font-style: italic;
+}
 
 /* Navbar */
 .bg-black
 {
     background-color: #000000;
+    width: 100%;
+    padding: 0;
 }
 
 .navbar-link-container
@@ -21,32 +66,36 @@
     width: 50%;
 }
 
-.navbar-link
+.link-white
 {
     color: #ffffff;
 }
 
-.navbar-link:hover
+.link-white:hover
 {
     color: #F0B700;
+}
+
+.button-link
+{
+    color: #ffffff;
+}
+
+.button-link:hover
+{
+    color: #ffffff;
 }
 
 
 /* Jumbotron */
 .jumbotron-container
 {
-    height: 90vh;
-}
-
-.movie-desc
-{
-    width: 100%;
-    height: 100%;
+    height: 92vh;
 }
 
 .bg-black-sub
 {
-    
+    background-color: #100f0f;
 }
 
 .cover
@@ -58,5 +107,37 @@
 .cover > img
 {
     width: 100%;
+    height: 100%;
+    filter:brightness(50%)
+}
+
+.film-text
+{
+    font-size: 24px;
+}
+
+.film-title
+{
+    font-size: 64px;
+}
+
+.film-detail
+{
+    font-size: 18px;
+}
+
+.play-button-text
+{
+    font-size: 20px;
+}
+
+/* Profile */
+.profile-img
+{
+    height: 10vh;
+}
+
+.profile-img > img
+{
     height: 100%;
 }
