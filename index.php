@@ -38,12 +38,17 @@
             <!-- Jumbotron -->
             <div class="row" data-aos="fade-up" data-aos-duration="1000">
                 <div class="jumbotron-container d-flex justity-content-center align-items-center bg-black-sub p-0 rounded-0">
-                    <div class="film-desc col-md-4 bg-black-sub p-5">
+                    <div class="col-md-4 bg-black-sub p-5">
                         <p class="film-text poppins-medium">Film</p>
-                        <h1 class="film-title poppins-semi-bold mb-5">180&deg;</h1>
+                        <h1 class="film-title text-yellow poppins-semi-bold mb-5">180&deg;</h1>
 
                         <h6 class="film-text poppins-medium">Sinopsis</h6>
-                        <p class="film-detail mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        <p class="film-detail mb-5">Ini tentang dua manusia yang berbeda seperti sudut 180°.
+                            Tentang Konflik, kesalahpahaman, dan perubahan...
+                            Tentang Ana yang tekun, tapi kesepian, dan Eric yang melewati hari yang seru, tapi selalu khawatir.
+                            
+                            Namun, apakah yang terjadi pada akhirnya? <br>
+                            Inilah 180°</p>
 
                         <button class="btn btn-md btn-warning pt-2 pb-2 pl-5 pr-5">
                             <a class="button-link play-button-text poppins-medium text-decoration-none" href="video.html">Play</a>
@@ -56,7 +61,7 @@
             </div>
 
             <div class="row bg-black p-5" data-aos="fade-up" data-aos-duration="1000">
-                <h2 class="col-md-12 poppins-bold film-text mb-5">Pemeran Utama</h2>
+                <h2 class="col-md-12 text-yellow poppins-bold film-text mb-5">Pemeran Utama</h2>
 
                 <div class="col-md-6 d-flex justify-content-left">
                     <div class="profile-img">
@@ -80,7 +85,7 @@
             </div>
             
             <div class="row bg-black p-5 mt-2 mb-5" data-aos="fade-up" data-aos-duration="1000">
-                <h2 class="col-md-12 poppins-bold film-text mb-3">Special Mentions</h2>
+                <h2 class="col-md-12 text-yellow poppins-bold film-text mb-3">Special Mentions</h2>
                 <ul class="ml-5">
                     <li>Name</li>
                     <li>Name</li>
