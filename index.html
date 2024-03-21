@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Beranda</title>
+        <title>About Film</title>
 
         <!-- Embedded Bootstrap v4.6.2 -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
@@ -17,17 +17,17 @@
     <body>
 
         <!-- Navbar -->
-        <nav class="bg-black navbar navbar-dark p-3 bg-black">
-            <span class="navbar-brand mb-0 h1 ml-5">Navbar</span>
+        <nav class="bg-black navbar navbar-dark bg-black">
+            <span class="navbar-brand mb-0 h1 ml-5 logo"></span>
             <div class="w-75 d-flex justify-content-center">
                 <div class="navbar-link-container d-flex justify-content-between">
                     <span class="navbar-brand mb-0 h1 mr-5">
                         <!-- Sesuaikan isi link dengan nama file -->
-                        <a class="navbar-link link-white text-decoration-none" href="index.html">Tentang Film</a>
+                        <a class="navbar-link link-white text-yellow text-decoration-none film-link" href="index.html">About Film</a>
                     </span>
                     <span class="navbar-brand mb-0 h1">
                         <!-- Sesuaikan isi link dengan nama file -->
-                        <a class="navbar-link link-white text-decoration-none" href="dibalik_layar.html">Dibalik Layar</a>
+                        <a class="navbar-link link-white text-decoration-none film-link" href="dibalik_layar.html">Behind The Scenes</a>
                     </span>
                 </div>
             </div>
@@ -42,61 +42,57 @@
                         <p class="film-text poppins-medium">Film</p>
                         <h1 class="film-title text-yellow poppins-semi-bold mb-5">180&deg;</h1>
 
-                        <h6 class="film-text poppins-medium">Sinopsis</h6>
-                        <p class="film-detail mb-5">Ini tentang dua manusia yang berbeda seperti sudut 180°.
-                            Tentang Konflik, kesalahpahaman, dan perubahan...
-                            Tentang Ana yang tekun, tapi kesepian, dan Eric yang melewati hari yang seru, tapi selalu khawatir.
+                        <h6 class="film-text poppins-medium">Synopsis</h6>
+                        <p class="film-detail mb-5">It's about two people living completely opposite lives. About conflicts, misunderstanding and change... 
+                            About a diligent but lonely Ana... 
+                            About an outgoing but anxious Eric.<br><br>
                             
-                            Namun, apakah yang terjadi pada akhirnya? <br>
-                            Inilah 180°</p>
+                            What would happen in the end?<br>
+                            <!-- Everything will unfold in 180° -->
+                            This is 180°
+                        </p>
 
-                        <button class="btn btn-md btn-warning pt-2 pb-2 pl-5 pr-5">
+                        <button class="btn btn-md btn-warning film-button">
                             <a class="button-link play-button-text poppins-medium text-decoration-none" href="video.html">Play</a>
                         </button>
                     </div>
                     <div class="cover col-md-8">
-                        <img src="assets/cover.png" alt="Cover">
+                        <img src="assets/cover_without_text.png" alt="Cover">
                     </div>
                 </div>
             </div>
 
             <div class="row bg-black p-5" data-aos="fade-up" data-aos-duration="1000">
-                <h2 class="col-md-12 text-yellow poppins-bold film-text mb-5">Pemeran Utama</h2>
+                <h2 class="col-md-12 text-yellow poppins-bold film-section mb-5">Main Characters</h2>
 
                 <div class="col-md-6 d-flex justify-content-left">
-                    <div class="profile-img">
-                        <img src="assets/profile/profile.jpg" alt="">
+                    <div id="profile-img-ana">
+                        <!-- <img src="assets/profile/ana.png" alt=""> -->
                     </div>
                     <div class="profile-detail p-3">
-                        <p class="poppins-bold film-detail">Clarensia Novia Hartanoe</p>
-                        <p class="poppins-italic film-detail">as Ana</p>
+                        <p class="poppins-bold film-section-detail">Clarensia Novia Hartanoe</p>
+                        <p class="poppins-italic film-section-detail">as Ana</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 d-flex justify-content-left">
-                    <div class="profile-img">
-                        <img src="assets/profile/profile.jpg" alt="">
+                    <div id="profile-img-eric">
+                        <!-- <img src="assets/profile/eric.png" alt=""> -->
                     </div>
                     <div class="profile-detail p-3">
-                        <p class="poppins-bold film-detail">Gideon Giyanto</p>
-                        <p class="poppins-italic film-detail">as Eric</p>
+                        <p class="poppins-bold film-section-detail">Gideon Giyanto</p>
+                        <p class="poppins-italic film-section-detail">as Eric</p>
                     </div>
                 </div>
             </div>
             
             <div class="row bg-black p-5 mt-2 mb-5" data-aos="fade-up" data-aos-duration="1000">
-                <h2 class="col-md-12 text-yellow poppins-bold film-text mb-3">Special Mentions</h2>
+                <h2 class="col-md-12 text-yellow poppins-bold film-section mb-3">Special Mentions</h2>
                 <ul class="ml-5">
-                    <li>Name</li>
-                    <li>Name</li>
-                    <li>Name</li>
-                    <li>Name</li>
-                    <li>Name</li>
-                    <li>Name</li>
-                    <li>Name</li>
-                    <li>Name</li>
-                    <li>Name</li>
-                    <li>Name</li>
+                    <li class="film-section-detail">PPTI BCA</li>
+                    <li class="film-section-detail">Binus University</li>
+                    <li class="film-section-detail">Reinert Yosua Rumagit</li>
+                    <li class="film-section-detail">Artemis</li>
                 </ul>
             </div>
         </div>

@@ -17,17 +17,17 @@
     <body>
 
         <!-- Navbar -->
-        <nav class="bg-black navbar navbar-dark p-3 bg-black">
-            <span class="navbar-brand mb-0 h1 ml-5">Navbar</span>
+        <nav class="bg-black navbar navbar-dark bg-black">
+            <span class="navbar-brand mb-0 h1 ml-5 logo"></span>
             <div class="w-75 d-flex justify-content-center">
                 <div class="navbar-link-container d-flex justify-content-between">
                     <span class="navbar-brand mb-0 h1 mr-5">
                         <!-- Sesuaikan isi link dengan nama file -->
-                        <a class="navbar-link link-white text-decoration-none" href="index.html">Tentang Film</a>
+                        <a class="navbar-link link-white text-decoration-none film-link" href="index.html">About Film</a>
                     </span>
                     <span class="navbar-brand mb-0 h1">
                         <!-- Sesuaikan isi link dengan nama file -->
-                        <a class="navbar-link link-white text-decoration-none" href="dibalik_layar.html">Dibalik Layar</a>
+                        <a class="navbar-link link-white text-yellow text-decoration-none film-link" href="dibalik_layar.html">Behind The Scenes</a>
                     </span>
                 </div>
             </div>
@@ -40,31 +40,43 @@
                 <div class="jumbotron-container d-flex justity-content-center align-items-center bg-black-sub p-0 rounded-0 overflow-hidden">
                     <div class="col-md-4 bg-black-sub pt-3 pl-5 pr-5">
                         <p class="film-text poppins-medium">About</p>
-                        <h1 class="film-title text-yellow poppins-semi-bold mb-5">180&deg;</h1>
+                        <h1 class="film-title text-yellow poppins-semi-bold mb-3">180&deg;</h1>
 
-                        <h6 class="film-text poppins-medium">Latar Belakang</h6>
-                        <p class="film-detail mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        <h6 class="film-text poppins-medium">Background</h6>
+                        <p class="film-detail mb-4">
+                            The production of 180° is mainly motivated by the interest in documenting and 
+                            sharing the team's experiences during our college lives for the past two years. 
+                            About the ups and downs, the delightfulness and struggles, and the changes we 
+                            encountered in each of us.
+                        </p>
 
-                        <p class="film-detail mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        <p class="film-detail mb-5">
+                            We developed the characters of Ana and Eric to demonstrate two contrasting sides of 
+                            a college student. Through them, we wanted to convey the hardship of balancing our 
+                            academic and personal lives. However, with some teamwork and trust, we can change to 
+                            a better version of ourselves.
+                        </p>
                     </div>
                     <div class="cover col-md-8">
                         <!-- Isi gambar sesuai kebutuhan -->
-                        <img src="assets/cover.png" alt="Cover">
+                        <img src="assets/cover_without_text.png" alt="Cover">
                     </div>
                 </div>
             </div>
 
             <!-- Teknis Video -->
             <div class="row bg-black p-5" data-aos="fade-up" data-aos-duration="1000">
-                <h2 class="col-md-12 text-yellow poppins-bold film-text mb-5">Teknis</h2>
+                <h2 class="col-md-12 text-yellow poppins-bold film-section mb-5">Technical Details</h2>
 
                 <div class="col-md-12 d-flex justify-content-center ml-5 mr-5">
                     <div class="teknis-img col-md-5">
-                        <img src="assets/teknis/teknis-dummy.webp" alt="">
+                        <img src="assets/teknis/basket.jpeg" alt="">
                     </div>
                     <div class="film-detail col-md-5 p-3">
-                        <p class="poppins-bold film-detail">Teknis Video</p>
-                        <p class="poppins-italic film-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia dolor repudiandae expedita. Est dignissimos ad sed dolorum rem sit quis a officiis, pariatur unde nostrum accusantium dolores quam similique repellendus.</p>
+                        <p class="poppins-bold film-section-detail">Video</p>
+                        <p class="poppins-thin film-section-detail">
+                            H.264 | 1920x1080 (1.0) | 30 fps | Progressive | 203 (75% HLG, 58% PQ) | Hardware Encoding | AMD Codec | 00:09:31:00 | VBR | 1 pass | Target 20.00 Mbps
+                        </p>
                     </div>
                 </div>
             </div>
@@ -73,11 +85,13 @@
             <div class="row bg-black p-5" data-aos="fade-up" data-aos-duration="1000">
                 <div class="col-md-12 d-flex justify-content-center ml-5 mr-5">
                     <div class="film-detail col-md-5 p-4">
-                        <p class="poppins-bold film-detail">Teknis Audio</p>
-                        <p class="poppins-italic film-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia dolor repudiandae expedita. Est dignissimos ad sed dolorum rem sit quis a officiis, pariatur unde nostrum accusantium dolores quam similique repellendus.</p>
+                        <p class="poppins-bold film-section-detail">Audio</p>
+                        <p class="poppins-thin film-section-detail">
+                            AAC | 193 kbps | 44.100 kHz | 2 (Stereo)
+                        </p>
                     </div>
                     <div class="teknis-img col-md-5 mr-5 d-flex justify-content-center">
-                        <img src="assets/teknis/teknis-dummy.webp" alt="">
+                        <img src="assets/teknis/gaming.jpeg" alt="">
                     </div>
                 </div>
             </div>
@@ -86,11 +100,11 @@
             <div class="row bg-black p-5" data-aos="fade-up" data-aos-duration="1000">
                 <div class="col-md-12 d-flex justify-content-center ml-5 mr-5">
                     <div class="teknis-img col-md-5">
-                        <img src="assets/teknis/teknis-dummy.webp" alt="">
+                        <img src="assets/teknis/conflict.jpeg" alt="">
                     </div>
                     <div class="film-detail col-md-5 p-3">
-                        <p class="poppins-bold film-detail">Teknis Animasi</p>
-                        <p class="poppins-italic film-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia dolor repudiandae expedita. Est dignissimos ad sed dolorum rem sit quis a officiis, pariatur unde nostrum accusantium dolores quam similique repellendus.</p>
+                        <p class="poppins-bold film-section-detail">Animation</p>
+                        <p class="poppins-thin film-section-detail">MP4 | 1920 x 1080 | 30 fps</p>
                     </div>
                 </div>
             </div>
@@ -99,24 +113,24 @@
             <div class="row bg-black p-5" data-aos="fade-up" data-aos-duration="1000">
                 <div class="col-md-12 d-flex justify-content-center ml-5 mr-5">
                     <div class="film-detail col-md-5 p-4">
-                        <p class="poppins-bold film-detail">Teknis Gambar</p>
-                        <p class="poppins-italic film-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia dolor repudiandae expedita. Est dignissimos ad sed dolorum rem sit quis a officiis, pariatur unde nostrum accusantium dolores quam similique repellendus.</p>
+                        <p class="poppins-bold film-section-detail">Image</p>
+                        <p class="poppins-thin film-section-detail">PNG | 4284 x 5712 | 24 bit | RGB</p>
                     </div>
                     <div class="teknis-img col-md-5 mr-5 d-flex justify-content-center">
-                        <img src="assets/teknis/teknis-dummy.webp" alt="">
+                        <img src="assets/teknis/pingpong.jpeg" alt="">
                     </div>
                 </div>
             </div>
             
             <div class="row bg-black p-5 mt-2 mb-5" data-aos="fade-up" data-aos-duration="1000">
-                <h2 class="col-md-12 text-yellow poppins-bold film-text mb-5">Anggota Kelompok</h2>
+                <h2 class="col-md-12 text-yellow poppins-bold film-section mb-3">Meet The Team</h2>
                 <!-- Anggota -->
 
                 <div class="container">
                     <ul class="cards">
                         <li class="card">
                             <div class="wrap_img m-3">
-                                <img src="assets/profile/profile.jpg" class="card-img-top border" alt="...">
+                                <img src="assets/profile/ana.png" class="card-img-top border" alt="...">
                             </div>
                             
                             <div class="card-body ml-4 mb-5">
@@ -127,7 +141,7 @@
                       
                         <li class="card">
                             <div class="wrap_img m-3">
-                                <img src="assets/profile/profile.jpg" class="card-img-top border" alt="...">
+                                <img src="assets/profile/eric.png" class="card-img-top border" alt="...">
                             </div>
                             
                             <div class="card-body ml-4 mb-5">
@@ -138,7 +152,7 @@
 
                         <li class="card">
                             <div class="wrap_img m-3">
-                                <img src="assets/profile/profile.jpg" class="card-img-top border" alt="...">
+                                <img src="assets/profile/mimi.png" class="card-img-top border" alt="...">
                             </div>
                             
                             <div class="card-body ml-4 mb-5">
@@ -149,7 +163,7 @@
                         
                         <li class="card">
                             <div class="wrap_img m-3">
-                                <img src="assets/profile/profile.jpg" class="card-img-top border" alt="...">
+                                <img src="assets/profile/yoh.png" class="card-img-top border" alt="...">
                             </div>
                             
                             <div class="card-body ml-4 mb-5">

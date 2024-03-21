@@ -55,7 +55,7 @@
                         </button>
                     </div>
                     <div class="cover col-md-8">
-                        <img src="assets/cover.png" alt="Cover">
+                        <img src="assets/cover.jpg" alt="Cover">
                     </div>
                 </div>
             </div>
@@ -65,7 +65,7 @@
 
                 <div class="col-md-6 d-flex justify-content-left">
                     <div class="profile-img">
-                        <img src="assets/profile/profile.jpg" alt="">
+                        <img src="assets/profile/ana.png" alt="">
                     </div>
                     <div class="profile-detail p-3">
                         <p class="poppins-bold film-detail">Clarensia Novia Hartanoe</p>
@@ -75,7 +75,7 @@
 
                 <div class="col-md-6 d-flex justify-content-left">
                     <div class="profile-img">
-                        <img src="assets/profile/profile.jpg" alt="">
+                        <img src="assets/profile/eric.png" alt="">
                     </div>
                     <div class="profile-detail p-3">
                         <p class="poppins-bold film-detail">Gideon Giyanto</p>
@@ -87,16 +87,10 @@
             <div class="row bg-black p-5 mt-2 mb-5" data-aos="fade-up" data-aos-duration="1000">
                 <h2 class="col-md-12 text-yellow poppins-bold film-text mb-3">Special Mentions</h2>
                 <ul class="ml-5">
-                    <li>Name</li>
-                    <li>Name</li>
-                    <li>Name</li>
-                    <li>Name</li>
-                    <li>Name</li>
-                    <li>Name</li>
-                    <li>Name</li>
-                    <li>Name</li>
-                    <li>Name</li>
-                    <li>Name</li>
+                <li>PPTI BCA</li>
+                    <li>Binus University</li>
+                    <li>Reinert Yosua Rumagit</li>
+                    <li>Artemis</li>
                 </ul>
             </div>
         </div>
