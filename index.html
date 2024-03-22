@@ -48,7 +48,6 @@
                             About an outgoing but anxious Eric.<br><br>
                             
                             What would happen in the end?<br>
-                            <!-- Everything will unfold in 180° -->
                             This is 180°
                         </p>
 
@@ -56,8 +55,8 @@
                             <a class="button-link play-button-text poppins-medium text-decoration-none" href="video.html">Play</a>
                         </button>
                     </div>
-                    <div class="cover col-md-8">
-                        <img src="assets/cover_without_text.png" alt="Cover">
+                    <div class="cover col-md-8" id="film-cover">
+                        <!-- <img src="assets/cover_without_text.png" alt="Cover"> -->
                     </div>
                 </div>
             </div>
